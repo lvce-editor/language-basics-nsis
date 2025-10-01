@@ -1,0 +1,12 @@
+{
+  "id": "builtin.language-basics-nsis",
+  "name": "Language Basics nsis",
+  "description": "Provides syntax highlighting and bracket matching in nsis files.",
+  "languages": [
+    {
+      "id": "nsis",
+      "extensions": [".nsi"],
+      "tokenize": "src/tokenizeNsis.js"
+    }
+  ]
+}
