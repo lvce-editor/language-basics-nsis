@@ -7,7 +7,8 @@
   "scripts": {
     "test": "test-syntax-highlighting",
     "build": "node scripts/build.js",
-    "dev": "node ./node_modules/@lvce-editor/server/bin/server.js ./test/cases --only-extension=."
+    "dev": "node ./node_modules/@lvce-editor/server/bin/server.js ./test/cases --only-extension=.",
+    "lint": "eslint . && prettier --check ."
   },
   "keywords": [],
   "author": "",
