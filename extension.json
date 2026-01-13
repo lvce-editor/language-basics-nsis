@@ -5,8 +5,11 @@
   "languages": [
     {
       "id": "nsis",
-      "extensions": [".nsi"],
+      "extensions": [
+        ".nsi"
+      ],
       "tokenize": "src/tokenizeNsis.js"
     }
-  ]
+  ],
+  "repository": "https://github.com/lvce-editor/language-basics-nsis"
 }
